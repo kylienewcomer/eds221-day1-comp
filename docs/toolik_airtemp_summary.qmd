@@ -76,7 +76,7 @@ toolik_temp_plot
 
 ## Export a figure
 
-```{r}
+```{r, create.dir = TRUE}
 ggsave(here::here("figs", "toolik_temp_plot.png"), height = 6, width = 7)
 ```
 
